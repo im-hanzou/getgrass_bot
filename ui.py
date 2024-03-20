@@ -111,12 +111,12 @@ def run_asyncio_loop(loop):
 
 
 def open_github(event):
-    url = "https://github.com/ymmmmmmmm/getgrass_bot"
+    url = "https://github.com/im-hanzou/getgrass_bot"
     subprocess.Popen(['start', url], shell=True)
 
 
 def open_referral(event):
-    url = "https://app.getgrass.io/register/?referralCode=0PhrIR8TAQX6IG4"
+    url = "https://app.getgrass.io/register/?referralCode=PnmuSjrqxyxvZsk"
     subprocess.Popen(['start', url], shell=True)
 
 
@@ -144,12 +144,12 @@ if __name__ == '__main__':
 
     labels_frame = tk.Frame(root)
 
-    github_label = tk.Label(labels_frame, text="GitHub Repository: https://github.com/ymmmmmmmm/getgrass_bot    ",
+    github_label = tk.Label(labels_frame, text="GitHub Repository: https://github.com/im-hanzou/getgrass_bot    ",
                             fg="blue")
     github_label.pack(side=tk.LEFT)
 
     referral_label = tk.Label(labels_frame,
-                              text="Referral Link: https://app.getgrass.io/register/?referralCode=0PhrIR8TAQX6IG4",
+                              text="Referral Link: https://app.getgrass.io/register/?referralCode=PnmuSjrqxyxvZsk",
                               fg="red")
     referral_label.pack(side=tk.LEFT)
 
